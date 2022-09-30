@@ -1,0 +1,44 @@
+.task {
+  list-style: none;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 0.75rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.uncheckedIcon {
+  color: var(--blue);
+}
+
+.checkedIcon {
+  color: var(--purple-dark);
+}
+
+.task .labelChecked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.task label {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.task button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.task button .trashIcon {
+  color: var(--gray-300);
+}
+
+.task button .trashIcon:hover {
+  color: var(--danger);
+}
