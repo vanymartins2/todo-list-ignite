@@ -4,9 +4,10 @@ This project was made from scratch following the figma design provided by Rocket
 
 To run this project on your computer, follow the instructions below:
 
-- clone this repository,
-  run:
-  npm install
-  npm run dev
+* Clone this repository.
+Run the following commands in your terminal:
 
-  enjoy!
+ npm install <br/>
+ npm run dev
+
+ enjoy! 
